@@ -1,0 +1,33 @@
+.login {
+	background-image: url("../../Image/Rectangle\ 1.png");
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	z-index: -10;
+}
+.loginSignup {
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+	font-weight: bold;
+}
+
+.Login_signup {
+	width: 450px;
+}
+
+.Login_signup p {
+	text-align: center;
+}
+
+.showLoginSignupForm {
+	text-decoration: underline;
+	font-weight: bold;
+	color: goldenrod;
+	cursor: pointer;
+}

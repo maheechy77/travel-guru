@@ -1,0 +1,40 @@
+.search_areas {
+	background-image: url("../../Image/Rectangle\ 1.png");
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	z-index: -10;
+}
+
+.search_area {
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+	font-weight: bold;
+	color: white;
+	max-height: 100vh;
+}
+
+.hotel {
+	display: flex;
+	max-height: 200px;
+	margin-top: 50px;
+}
+
+.hotel > img {
+	width: 250px;
+	height: 200px;
+}
+.hotel_info {
+	margin-left: 50px;
+}
+.accomodations,
+.rating_price {
+	display: flex;
+}

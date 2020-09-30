@@ -1,0 +1,42 @@
+.nav {
+	background: transparent !important;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.logo > img {
+	width: 150px;
+	-webkit-filter: brightness(0) invert(1);
+	filter: brightness(0) invert(1);
+}
+
+.search {
+	display: flex;
+	align-items: center;
+	max-width: fit-content;
+	height: 40px;
+	padding: 10px;
+	border: 2px solid lightgray;
+	border-radius: 10px;
+}
+
+.search > input {
+	background: transparent;
+	border: none;
+	width: 250px;
+	padding: 10px;
+	outline-width: 0;
+}
+
+.menu {
+	display: flex;
+	width: 700px;
+	justify-content: space-between;
+}
+
+.menu > a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}

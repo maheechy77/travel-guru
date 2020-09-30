@@ -1,0 +1,22 @@
+.nomatch {
+	background-image: url("../../Image/Rectangle\ 1.png");
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	z-index: -10;
+}
+
+.nomatch_overlay {
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 100%;
+	font-weight: bold;
+	color: white;
+	display: flex;
+}
+
+.nomatch_overlay > h1 {
+	margin-left: 45%;
+	margin-top: 15%;
+}

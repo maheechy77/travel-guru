@@ -1,0 +1,33 @@
+.booking {
+	background-image: url("../../Image/Rectangle\ 1.png");
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	z-index: -10;
+}
+
+.bookPlace {
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+}
+
+.placeInfo {
+	color: white;
+	font-weight: bold;
+	max-width: 30%;
+	margin-right: 150px;
+}
+.placeInfo > h2 {
+	font-size: 80px;
+}
+
+.bookingCard {
+	width: 20%;
+	font-weight: bold;
+}
